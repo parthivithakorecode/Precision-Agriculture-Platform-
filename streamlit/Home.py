@@ -44,8 +44,8 @@ def load_crop_data():
             "water_requirement": "High"
         },
         "wheat": {
-            "temp_range": [15, 25],
-            "humidity_range": [50, 70],
+            "temp_range": [15, 30],
+            "humidity_range": [25, 70],
             "moisture_range": [450, 1050],
             "nutrients": {
                 "nitrogen": "Medium (80-100 kg/ha)",
