@@ -1006,6 +1006,16 @@ def update_sensor_data():
         temperature = anedya_getValue("tempnow")
         moisture = anedya_getValue("moistnow")
         
+        # Handle list values (extract first element if list)
+        def get_first_value(value):
+            if isinstance(value, list):
+                return value[0] if len(value) > 0 else None
+            return value
+        
+        humidity = get_first_value(humidity)
+        temperature = get_first_value(temperature)
+        moisture = get_first_value(moisture)
+        
         # Update session state
         if humidity is not None:
             st.session_state.CurrentHumidity = round(float(humidity), 1)
