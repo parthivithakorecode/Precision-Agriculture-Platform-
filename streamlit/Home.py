@@ -21,7 +21,7 @@ nodeId = "0195e651-cc0c-731f-96d3-4e89384d3924"  # get it from anedya dashboard 
 apiKey = "1eed2864228e1537395bd082cb098f5d29f6d00610d0bb60520a49f3878f1dce"  # aneyda project apikey
 
 st.set_page_config(
-    page_title="Smart Agriculture Dashboard", 
+    page_title="Precision Agriculture Dashboard", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
