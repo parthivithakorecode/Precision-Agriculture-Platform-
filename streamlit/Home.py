@@ -334,7 +334,7 @@ def drawLogin():
     with cols[0]:
         pass
     with cols[1]:
-        st.title("Smart Agriculture Dashboard", anchor=False)
+        st.title("Precision Agriculture Dashboard", anchor=False)
         st.image("https://iotdesignpro.com/sites/default/files/inline-images/Smart-Greenhouses.jpg", width=150)  # Replace with your own logo
         
         with st.form("login_form"):
@@ -349,7 +349,7 @@ def drawLogin():
                 else:
                     st.error("Invalid Credentials!")
                     
-        st.info("👨‍🌾 Welcome to smart agriculture monitoring system. Login to access your farm's data and analysis.")
+        st.info("👨‍🌾 Welcome to precision agriculture monitoring system. Login to access your farm's data and analysis.")
     with cols[2]:
         pass
 
