@@ -387,7 +387,7 @@ def drawDashboard():
             st.rerun()
     
     # Main Content
-    st.title("Smart Agriculture Dashboard", anchor=False)
+    st.title("Precision Agriculture Dashboard", anchor=False)
     
     # Current time
     current_time = datetime.now().strftime("%d %B %Y, %H:%M:%S")
